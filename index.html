@@ -1,80 +1,180 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="fr">
+
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Chess Coaching</title>
 
 <style>
 
-body {
-    background-color: #1f3d2b;
-    color: #f5f1e6;
-    max-width: 800px;
-    margin: auto;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    padding: 20px;
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#1f3d2b;
+    color:#f5f1e6;
 }
 
-.container {
-    background-color: #2a4f3a;
-    padding: 30px;
-    border-radius: 10px;
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
 }
 
-h1 {
-    text-align: center;
+.hero{
+    text-align:center;
+    padding:60px 20px;
 }
 
-section {
-    margin-top: 40px;
+.hero h1{
+    font-size:40px;
+    margin-bottom:10px;
 }
 
-button {
-    background-color: #2f6f3e;
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    font-size: 16px;
-    border-radius: 6px;
-    cursor: pointer;
+.hero h2{
+    font-weight:normal;
+    color:#c9a227;
 }
 
-button:hover {
-    background-color: #245732;
+button{
+    margin-top:20px;
+    background:#c9a227;
+    color:#1f3d2b;
+    border:none;
+    padding:12px 24px;
+    font-size:16px;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#e0b83c;
+}
+
+.section{
+    margin-top:60px;
+}
+
+.section h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.card{
+    background:#2a4f3a;
+    padding:20px;
+    border-radius:8px;
+    margin-top:20px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+footer{
+    text-align:center;
+    margin-top:60px;
+    font-size:14px;
+    opacity:0.8;
 }
 
 </style>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
 </head>
+
 <body>
 
 <div class="container">
 
-<h1>Lion Autopropulsé – Coach d'échecs</h1>
+<div class="hero">
 
-<section>
-<p>Passionné d’échecs depuis plusieurs années et classé 2000 en rapid sur Chess.com, je propose des cours particuliers et des leçons de groupe.</p>
-</section>
+<h1>Your Name</h1>
+<h2>Chess Coach – 2000 Rapid (Chess.com)</h2>
 
-<section>
-  <h2><i class="fa-solid fa-chess-king"></i> Leçons</h2>
-  <p>Cours individuel : CHF 40 / heure</p>
-  <p>Leçons de groupe : tarifs à discuter</p>
-</section>
+<p>
+Passionné d’échecs depuis de nombreuses années, je propose des cours
+particuliers et des leçons de groupe pour joueurs débutants et intermédiaires.
+</p>
 
-<section>
-<h2>Contact</h2>
-
-<a href="mailto:yourmail@email.com">
+<a href="mailto:youremail@email.com">
 <button>Réserver un cours</button>
 </a>
 
-</section>
+</div>
+
+<div class="section">
+
+<h2>À propos</h2>
+
+<div class="card">
+
+<p>
+Après avoir atteint un classement de 2000 en rapid sur Chess.com,
+je souhaite partager mon expérience et aider d'autres joueurs à progresser.
+Les cours sont adaptés à votre niveau et à vos objectifs.
+</p>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Ce que j’enseigne</h2>
+
+<div class="card">
+
+<ul>
+<li>Compréhension stratégique</li>
+<li>Analyse de parties</li>
+<li>Ouvertures adaptées à votre style</li>
+<li>Entraînement tactique</li>
+<li>Préparation aux tournois</li>
+</ul>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Tarifs</h2>
+
+<div class="card">
+
+<p><strong>Cours individuel :</strong> CHF 60 / heure</p>
+<p><strong>Leçon de groupe :</strong> CHF 40 / heure</p>
+
+</div>
+
+</div>
+
+<div class="section">
+
+<h2>Paiement</h2>
+
+<div class="card" style="text-align:center">
+
+<p>Paiement possible via TWINT</p>
+
+<img src="twint.png" width="160">
+
+<p>Scannez le QR code pour payer votre cours</p>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>© 2026 – Chess Coaching</p>
+
+</footer>
 
 </div>
 
 </body>
 </html>
-
+```
